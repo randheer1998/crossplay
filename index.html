@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+          border-collapse: collapse;
+          
+        }
+        td{
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body><center>
+    <h1>Welcome to This Game</h1>
+    <table border="3px" id="board">
+        <tr>
+            <td onclick="sendData(0,0)"></td>
+            <td onclick="sendData(0,1)"></td>
+            <td onclick="sendData(0,2)"></td>
+        </tr>
+        <tr>
+            <td onclick="sendData(1,0)"></td>
+            <td onclick="sendData(1,1)"></td>
+            <td onclick="sendData(1,2)"></td>
+        </tr>
+        <tr>
+            <td onclick="sendData(2,0)"></td>
+            <td onclick="sendData(2,1)"></td>
+            <td onclick="sendData(2,2)"></td>
+        </tr>
+    </table><br><br><br>
+    <font color="red"><big>
+    <footer><b>This is Made By MR. Aryan Nagar</b></footer></font></big>
+</center>
+    <script src="./game.js"></script>
+</body>
+</html>
